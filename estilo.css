@@ -1,23 +1,83 @@
 body {
     font: 400 15px Tahoma, sans-serif;
     /*Familia sans-serif*/
-    line-height: 1.8;
-    color: #000000;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255); 
+    padding: 0%;
+    margin: 0%;
 }
 
-h1 {
-    font: 400 100px Impact, sans-serif;
+header {
+    font: 50px Impact, fantasy;
     /*Familia sans-serif*/
     background-color: #f76e1ec9;
     color: #fff;
     text-transform: uppercase;
-    padding: 100px 25px;
+    padding: 5%;
     text-align: center;
 }
 
+main {
+    background-color: rgba(255, 255, 255, 0.425);
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    font: 30px Courier, monospace;
+    /*Familia sans-serif*/
+    background-color: #058305c9;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1%;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 10px solid #000000;
+}
+
+h3 {
+    font: 25px Courier, monospace;
+    /*Familia sans-serif*/
+    background-color: #053c83c9;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0%;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 5px solid #052f66c9;
+}
+
+h4 {
+    font: 120% Courier, monospace;
+    /*Familia sans-serif*/
+    background-color: #790560c9;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0%;
+    text-align: center;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 85%;
+    border: 5px solid #d0ff00;
+}
+
 p {
+    font: 15px "Trebuchet MS", sans-serif;
     text-align: justify;
+    margin: 0% 15%;
+}
+
+ul {
+    font: 18px "Apple Chancery", cursive;
+    text-align: left;
+    margin: 1%;
+    font-style: italic;
+}
+
+table {
+    font: 18px 'Gill Sans', sans-serif;
+    text-align: left;
 }
 
 th {
@@ -28,3 +88,13 @@ th {
 td {
     padding: 15px;
 }
+
+div#footer p {
+    margin: 1% 0%;
+}
+
+div#juegosh3 h3{
+    background-color: #d0ff00;
+    color:rgb(0, 0, 0);
+}
+
