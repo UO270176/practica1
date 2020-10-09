@@ -4,7 +4,8 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Blade Runner</title>
+    <title>Blade Runner - Galardones</title>
+    <link rel="stylesheet" type="text/css" href="layout.css" />
     <link rel="stylesheet" type="text/css" href="estilo.css" />
 </head>
 
@@ -14,55 +15,69 @@
         <h1>Blade Runner</h1>
     </header>
 
-    <div id="menu">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="sinopsis.html">Sinopsis</a></li>
-            <li><a href="premios.html">Premios y Galardones</a></li>
-        </ul>
-    </div>
+    <nav>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sinopsis.html">Sinopsis</a></li>
+                <li><a href="premios.html">Premios y Galardones</a></li>
+            </ul>
+        </div>
+    </nav>
 
     <main>
+        <div class="col-8">
+            <h3>Premios y Galardones</h3>
+            <p>
+                Inicialmente Blade Runner recibió críticas mixtas de parte de la prensa especializada. Unos se mostraron
+                confundidos y decepcionados de que no tuviese el ritmo narrativo que se esperaba de una película de
+                acción,
+                mientras otros apreciaban su ambientación
+                y complejidad temática. La película no obtuvo buenos resultados de taquilla en los cines
+                norteamericanos,
+                pero fue posteriormente revalorizada en el mercado doméstico hasta convertirse en una película de culto,
+                siendo considerada una de las
+                mejores películas de ciencia ficción y una precursora del género ciberpunk.
+            </p>
 
-        <h3>Premios y Galardones</h3>
-        <p>
-            Inicialmente Blade Runner recibió críticas mixtas de parte de la prensa especializada. Unos se mostraron
-            confundidos y decepcionados de que no tuviese el ritmo narrativo que se esperaba de una película de acción,
-            mientras otros apreciaban su ambientación
-            y complejidad temática. La película no obtuvo buenos resultados de taquilla en los cines norteamericanos,
-            pero fue posteriormente revalorizada en el mercado doméstico hasta convertirse en una película de culto,
-            siendo considerada una de las
-            mejores películas de ciencia ficción y una precursora del género ciberpunk.
-        </p>
-
-        <div id="premiosImag">
-            <img src="multimedia/oscars.jpg" alt="Ceremonia Oscars 2018"/>
+            <p>
+                Fue candidata a dos Óscar (mejor
+                dirección artística y mejores efectos visuales), ganó tres Premios BAFTA de ocho nominaciones, y la
+                banda
+                sonora compuesta por Vangelis
+                fue nominada al Globo de Oro.
+            </p>
         </div>
 
-        <p>
-            Fue candidata a dos Óscar (mejor
-            dirección artística y mejores efectos visuales), ganó tres Premios BAFTA de ocho nominaciones, y la banda
-            sonora compuesta por Vangelis
-            fue nominada al Globo de Oro.
-        </p>
+        <div class="col-2">
+            <div id="premiosImag">
+                <img src="multimedia/oscars.jpg" alt="Ceremonia Oscars 2018" />
+            </div>
 
-        <div id="bsoPremios">
-            <audio controls>
-                <source src="multimedia/BLADERUNNER2049-OfficialTrailer.mp3" type="audio/mp3"/>
-            </audio>
+            <p>
+                Foto de la gala de Oscars - 2018.
+            </p>
+
+            <div id="bsoPremios">
+                <audio controls>
+                    <source src="multimedia/BLADERUNNER2049-OfficialTrailer.mp3" type="audio/mp3" />
+                </audio>
+            </div>
         </div>
 
     </main>
 
-    <footer>
-        <div id="footer">
-            <p>
-                <a href="http://www.w3.org/Icons/valid-html401"><img alt=""
-                        src="http://www.w3.org/Icons/valid-html401.png" /></a>
-                <a href="http://jigsaw.w3.org/css-validator/check/referer">
-                    <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="" />
-                </a>
-            </p>
-        </div>
-    </footer>
+    <div class="col-12">
+        <footer>
+            <div id="footer">
+                <p>
+                    <a href="http://www.w3.org/Icons/valid-html401"><img alt=""
+                            src="http://www.w3.org/Icons/valid-html401.png" /></a>
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                        <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="" />
+                    </a>
+                </p>
+            </div>
+        </footer>
+    </div>
 </body>

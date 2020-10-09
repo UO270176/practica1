@@ -1,19 +1,10 @@
 body {
-    font: 400 15px Tahoma, sans-serif;
+    font: 400 100% Tahoma, sans-serif;
     /*Familia sans-serif*/
     background-color: rgb(255, 255, 255);
     color: black;
     padding: 0%;
     margin: 0%;
-}
-
-header {
-    font: 50px Impact, fantasy;
-    background-color: #f76e1ec9;
-    color: #fff;
-    text-transform: uppercase;
-    padding: 5%;
-    text-align: center;
 }
 
 main {
@@ -22,25 +13,21 @@ main {
 }
 
 h2 {
-    font: 30px Courier, monospace;
+    font: 160% Courier, monospace;
     background-color: #058305c9;
     color: #fff;
     text-transform: uppercase;
-    padding: 1%;
     text-align: center;
-    margin-top: 1%;
     margin-bottom: 1%;
     border: 10px solid #000000;
 }
 
 h3 {
-    font: 25px Courier, monospace;
+    font: 140% Courier, monospace;
     background-color: #053c83c9;
     color: #fff;
     text-transform: uppercase;
-    padding: 0%;
     text-align: center;
-    margin-top: 1%;
     margin-bottom: 1%;
     border: 5px solid #052f66c9;
 }
@@ -50,24 +37,13 @@ h4 {
     background-color: #790560c9;
     color: #fff;
     text-transform: uppercase;
-    padding: 0%;
     text-align: center;
-    margin-left: 1%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    margin-right: 85%;
     border: 5px solid #d0ff00;
 }
 
 p {
     text-align: justify;
     margin: 0% 15%;
-}
-
-ul {
-    text-align: left;
-    margin: 1%;
-    font-style: italic;
 }
 
 table {
@@ -83,15 +59,25 @@ td {
     padding: 15px;
 }
 
+div#video video {
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+div#harrisonImg img {
+    margin: 5%;
+    width: 95%;
+    height: 100%;
+}
+
 div#bsoPremios audio {
-    margin: 2% 0% 2% 40%;
+    margin-top: 5%;
+    margin-left: 50%;
 }
 
 div#premiosImag img {
-    width: 640px;
     height: 400px;
     margin-top: 2%;
-    margin-left: 35%;
     margin-bottom: 2%;
 }
 
@@ -114,39 +100,4 @@ div#footer p {
 div#juegosh3 h3 {
     background-color: #d0ff00;
     color: rgb(0, 0, 0);
-}
-
-div#menu ul {
-    list-style-type: none;
-    margin: 1% 0%;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    color: white;
-    border: 5px solid #ff0000;
-}
-
-div#menu li {
-    float: left;
-}
-
-div#menu li a {
-    font: 200% Impact, fantasy;
-    font-style: normal;
-    display: block;
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-div#menu li a:hover {
-    color: white;
-    background-color: #111;
-}
-
-div#video {
-    text-align: center;
-    margin: 2% 35%;
 }
