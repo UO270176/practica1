@@ -42,7 +42,7 @@ h4 {
 }
 
 p {
-    text-align: unset;
+    text-align: justify;
     margin: 0% 15%;
 }
 
@@ -79,6 +79,7 @@ div#personajes ul li {
     padding: 1%;
     display: table-row;
 }
+
 
 div#personajes ul li img {
     padding: 0%;
