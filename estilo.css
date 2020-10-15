@@ -42,7 +42,7 @@ h4 {
 }
 
 p {
-    text-align: justify;
+    text-align: unset;
     margin: 0% 15%;
 }
 
