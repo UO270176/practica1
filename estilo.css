@@ -60,31 +60,59 @@ td {
 }
 
 div#video video {
+    width: 50%;
+    height: 50%;
     margin-top: 2%;
-    margin-left: 15%;
+    margin-left: 25%;
 }
 
-div#harrisonImg img {
-    margin: 5%;
-    width: 95%;
+div#personajes h4 {
+    margin: 0%;
+    padding: 0%;
+}
+
+div#personajes ul {
+    list-style-type: none;
+}
+
+div#personajes ul li {
+    padding: 1%;
+    display: table-row;
+}
+
+div#personajes ul li img {
+    padding: 0%;
+    margin-left: 20.5%;
+    width: 80%;
+    height: 80%;
+}
+
+div#poster img {
+    margin: 5% 0% 0% 10%;
+    width: 80%;
+    height: 80%;
+}
+
+div#premiosColDerecha audio {
+    height: 4em;
+    width: 20em;
+}
+
+div#premiosColDerecha p {
+    text-align: center;
+    margin: 0%;
+}
+
+div#premiosColDerecha img {
     height: 100%;
-}
-
-div#bsoPremios audio {
-    margin-top: 5%;
-    margin-left: 50%;
-}
-
-div#premiosImag img {
-    height: 400px;
+    width: 100%;
+    border: 5px solid #ff0000;
     margin-top: 2%;
     margin-bottom: 2%;
 }
 
 div#sinopsisImag {
-    margin-top: 2%;
-    margin-left: 43%;
-    margin-bottom: 2%;
+    margin: 1% 16.66%;
 }
 
 div#footer img {

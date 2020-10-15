@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <title>Blade Runner</title>
     <link rel="stylesheet" type="text/css" href="layout.css" />
     <link rel="stylesheet" type="text/css" href="estilo.css" />
@@ -22,6 +22,7 @@
         <div id="menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
+                <li><a href="personajes.html">Personajes</a></li>
                 <li><a href="sinopsis.html">Sinopsis</a></li>
                 <li><a href="premios.html">Premios y Galardones</a></li>
             </ul>
@@ -29,106 +30,105 @@
     </nav>
 
     <main>
+        <div class="row">
+            <div class="col-9">
 
-        <div class="col-9">
+                <h2>Resumen</h2>
+                <p>
+                    Blade Runner es una película neo-noir y de ciencia ficción estadounidense dirigida por Ridley Scott,
+                    estrenada en 1982. Fue escrita por Hampton Fancher y David Webb Peoples, y el reparto se compone de
+                    Harrison
+                    Ford, Rutger Hauer, Sean Young, Edward James
+                    Olmos, M. Emmet Walsh, Daryl Hannah, William Sanderson, Brion James, Joe Turkel y Joanna Cassidy.
+                    Está
+                    basada parcialmente en la novela de Philip K. Dick ¿Sueñan los androides con ovejas eléctricas?
+                    (1968).
+                    Es
+                    la primera película de la franquicia
+                    Blade Runner.
+                </p>
 
-            <h2>Resumen</h2>
-            <p>
-                Blade Runner es una película neo-noir y de ciencia ficción estadounidense dirigida por Ridley Scott,
-                estrenada en 1982. Fue escrita por Hampton Fancher y David Webb Peoples, y el reparto se compone de
-                Harrison
-                Ford, Rutger Hauer, Sean Young, Edward James
-                Olmos, M. Emmet Walsh, Daryl Hannah, William Sanderson, Brion James, Joe Turkel y Joanna Cassidy. Está
-                basada parcialmente en la novela de Philip K. Dick ¿Sueñan los androides con ovejas eléctricas? (1968).
-                Es
-                la primera película de la franquicia
-                Blade Runner.
-            </p>
+                <div id="video">
+                    <video src="multimedia/videoplayback.mp4"></video>
+                </div>
 
-            <div id="video">
-                <video src="multimedia/videoplayback.mp4"></video>
             </div>
 
+            <div class="col-3">
+
+                <h3>Poster promocional (1982)</h3>
+
+                <div id="poster">
+                    <img src="multimedia/Poster2049.jpg" alt="Poster 2049" />
+                </div>
+
+            </div>
         </div>
 
-        <div class="col-3">
-
-            <h4>Protagonistas</h4>
-
-            <ul>
-                <li>Harrison Ford</li>
-                <li>Rutger Hauer</li>
-                <li>Sean Young</li>
-                <li>Edward James Olmos</li>
-                <li>Daryl Hannah</li>
-            </ul>
-
-            <div id="harrisonImg">
-                <img src="multimedia/harrison.jpg" alt="Harrison Ford" />
+        <div class="row">
+            <div class="col-12">
+                <div id="juegosh3">
+                    <h3>Juegos y cómics</h3>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Año</th>
+                            <th>Título</th>
+                            <th>Género</th>
+                            <th>Desarrollador(es)</th>
+                            <th>Plataforma(s)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> 1985</td>
+                            <td> Blade Runner</td>
+                            <td> Shoot 'em up</td>
+                            <td> Andy Stodart, Ian Foster e Ian Ellery</td>
+                            <td> Commodore 64, ZX Spectrum y Amstrad CPC198​</td>
+                        </tr>
+                        <tr>
+                            <td> 1997</td>
+                            <td> Blade Runner</td>
+                            <td> Aventura gráfica</td>
+                            <td> Westwood Studios</td>
+                            <td> Windows199​</td>
+                        </tr>
+                        <tr>
+                            <td> 2017</td>
+                            <td> Blade Runner 9732 (no oficial)</td>
+                            <td> Realidad virtual</td>
+                            <td> Quentin Lengele</td>
+                            <td> HTC Vive​</td>
+                        </tr>
+                        <tr>
+                            <td> 2018</td>
+                            <td> Blade Runner: Revelations</td>
+                            <td> Realidad virtual</td>
+                            <td> Seismic Games y Alcon Media Group</td>
+                            <td> Google Daydream</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-
-        </div>
-
-        <div class="col-12">
-            <div id="juegosh3">
-                <h3>Juegos y cómics</h3>
-            </div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Año</th>
-                        <th>Título</th>
-                        <th>Género</th>
-                        <th>Desarrollador(es)</th>
-                        <th>Plataforma(s)</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td> 1985</td>
-                        <td> Blade Runner</td>
-                        <td> Shoot 'em up</td>
-                        <td> Andy Stodart, Ian Foster e Ian Ellery</td>
-                        <td> Commodore 64, ZX Spectrum y Amstrad CPC198​</td>
-                    </tr>
-                    <tr>
-                        <td> 1997</td>
-                        <td> Blade Runner</td>
-                        <td> Aventura gráfica</td>
-                        <td> Westwood Studios</td>
-                        <td> Windows199​</td>
-                    </tr>
-                    <tr>
-                        <td> 2017</td>
-                        <td> Blade Runner 9732 (no oficial)</td>
-                        <td> Realidad virtual</td>
-                        <td> Quentin Lengele</td>
-                        <td> HTC Vive​</td>
-                    </tr>
-                    <tr>
-                        <td> 2018</td>
-                        <td> Blade Runner: Revelations</td>
-                        <td> Realidad virtual</td>
-                        <td> Seismic Games y Alcon Media Group</td>
-                        <td> Google Daydream</td>
-                    </tr>
-                </tbody>
-            </table>
         </div>
     </main>
 
-    <div class="col-12">
-        <footer>
-            <div id="footer">
-                <p>
-                    <a href="http://www.w3.org/Icons/valid-html401"><img alt=""
-                            src="http://www.w3.org/Icons/valid-html401.png" /></a>
-                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
-                        <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="" />
-                    </a>
-                </p>
-            </div>
-        </footer>
+    <div class="row">
+        <div class="col-12">
+            <footer>
+                <div id="footer">
+                    <p>
+                        <a href="http://www.w3.org/Icons/valid-html401"><img alt="htmlValid"
+                                src="http://www.w3.org/Icons/valid-html401.png" /></a>
+                        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                            <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="cssValid" />
+                        </a>
+                    </p>
+                </div>
+            </footer>
+        </div>
     </div>
 </body>
 
