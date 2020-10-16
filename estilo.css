@@ -79,7 +79,9 @@ div#personajes ul li {
     padding: 1%;
     display: table-row;
 }
-
+div#personajes ul li p {
+    font-size: 110%;
+}
 
 div#personajes ul li img {
     padding: 0%;
