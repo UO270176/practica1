@@ -79,6 +79,7 @@ div#personajes ul li {
     padding: 1%;
     display: table-row;
 }
+
 div#personajes ul li p {
     font-size: 110%;
 }
@@ -114,8 +115,19 @@ div#premiosColDerecha img {
     margin-bottom: 2%;
 }
 
-div#sinopsisImag {
-    margin: 1% 5.66%;
+div#img_ciudad img {
+    height: 40%;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+div#elementos_influencia img {
+    height: 50%;
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 div#footer img {
