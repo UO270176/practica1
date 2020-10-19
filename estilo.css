@@ -1,12 +1,11 @@
 body {
     font: 400 100% Tahoma, sans-serif;
     /*Familia sans-serif*/
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     color: black;
     padding: 0%;
     margin: 0%;
 }
-
 
 h2 {
     font: 160% Courier, monospace;
