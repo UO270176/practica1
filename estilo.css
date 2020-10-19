@@ -24,17 +24,17 @@ h2 {
 
 h3 {
     font: 140% Courier, monospace;
-    background-color: #053c83c9;
+    background-color: #084aa0;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 1%;
-    border: 5px solid #052f66c9;
+    border: 5px solid #052f66;
 }
 
 h4 {
     font: 120% Courier, monospace;
-    background-color: #790560c9;
+    background-color: #790560;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
@@ -97,6 +97,12 @@ div#poster img {
     height: 80%;
 }
 
+div#poster_sinopsis img {
+    width: 80%;
+    height: 80%;
+    margin-left: 8%;
+}
+
 div#premiosColDerecha audio {
     height: 4em;
     width: 20em;
@@ -122,6 +128,7 @@ div#img_ciudad img {
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
 div#elementos_influencia img {
     height: 50%;
     width: 50%;
